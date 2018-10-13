@@ -11,10 +11,10 @@
     </item>
 
     <!--Show currency conversion action button if possible-->
-    <item android:id="@+id/action_currency_conversion"
-        android:title="@string/action_currency_conversion"
-        app:showAsAction="ifRoom"
-        android:icon="@mipmap/ic_currency_exchange">
-    </item>
+    <!--<item android:id="@+id/action_currency_conversion"-->
+        <!--android:title="@string/action_currency_conversion"-->
+        <!--app:showAsAction="ifRoom"-->
+        <!--android:icon="@mipmap/ic_currency_exchange">-->
+    <!--</item>-->
 
 </menu>

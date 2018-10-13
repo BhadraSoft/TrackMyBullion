@@ -30,6 +30,7 @@
                     android:layout_weight="1">
 
                     <LinearLayout
+                        android:layout_marginTop="@dimen/_16sdp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
@@ -87,6 +88,7 @@
                                         android:background="@drawable/rounded_corner"
                                         android:padding="8dp"
                                         android:text="@string/oneDay"
+                                        android:textSize="@dimen/_16sdp"
                                         android:textAlignment="center"
                                         android:textColor="@drawable/fragment_gold_price_tv_history_range_text"
                                         android:textStyle="bold" />
@@ -102,6 +104,7 @@
                                         android:background="@drawable/rounded_corner"
                                         android:padding="8dp"
                                         android:text="@string/fiveDays"
+                                        android:textSize="@dimen/_16sdp"
                                         android:textAlignment="center"
                                         android:textColor="@drawable/fragment_gold_price_tv_history_range_text"
                                         android:textStyle="bold" />
@@ -117,6 +120,7 @@
                                         android:background="@drawable/rounded_corner"
                                         android:padding="8dp"
                                         android:text="@string/oneMonth"
+                                        android:textSize="@dimen/_16sdp"
                                         android:textAlignment="center"
                                         android:textColor="@drawable/fragment_gold_price_tv_history_range_text"
                                         android:textStyle="bold" />
@@ -133,6 +137,7 @@
                                         android:background="@drawable/rounded_corner"
                                         android:padding="8dp"
                                         android:text="@string/sixMonth"
+                                        android:textSize="@dimen/_16sdp"
                                         android:textAlignment="center"
                                         android:textColor="@drawable/fragment_gold_price_tv_history_range_text"
                                         android:textStyle="bold" />
@@ -149,6 +154,7 @@
                                         android:background="@drawable/rounded_corner"
                                         android:padding="8dp"
                                         android:text="@string/oneYear"
+                                        android:textSize="@dimen/_16sdp"
                                         android:textAlignment="center"
                                         android:textColor="@drawable/fragment_gold_price_tv_history_range_text"
                                         android:textStyle="bold" />
@@ -164,6 +170,7 @@
                                         android:background="@drawable/rounded_corner"
                                         android:padding="8dp"
                                         android:text="@string/fiveYear"
+                                        android:textSize="@dimen/_16sdp"
                                         android:textAlignment="center"
                                         android:textColor="@drawable/fragment_gold_price_tv_history_range_text"
                                         android:textStyle="bold" />
@@ -179,6 +186,7 @@
                                         android:background="@drawable/rounded_corner"
                                         android:padding="8dp"
                                         android:text="@string/tenYears"
+                                        android:textSize="@dimen/_16sdp"
                                         android:textAlignment="center"
                                         android:textColor="@drawable/fragment_gold_price_tv_history_range_text"
                                         android:textStyle="bold" />
@@ -219,7 +227,7 @@
             android:layout_gravity="center_horizontal"
             android:background="@color/primary"
             ads:adSize="BANNER"
-            ads:adUnitId="ca-app-pub-39402560999425d44/6300978111" />
+            ads:adUnitId="@string/test_banner_ad_unit_id" />
 
     </LinearLayout>
 

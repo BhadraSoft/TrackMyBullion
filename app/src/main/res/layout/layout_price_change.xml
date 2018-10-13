@@ -3,6 +3,8 @@
     android:layout_height="wrap_content"
     android:gravity="center"
     android:orientation="vertical"
+    android:layout_marginTop="@dimen/_16sdp"
+    android:layout_marginBottom="@dimen/_16sdp"
     android:visibility="gone"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -21,6 +23,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="$"
+                android:textSize="@dimen/_16sdp"
                 android:textAlignment="center"
                 android:textColor="@color/primary_text" />
 
@@ -28,10 +31,10 @@
                 android:id="@+id/activity_main_tv_price"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="2000.45"
+                android:text="0.0"
                 android:textAlignment="center"
                 android:textColor="@color/primary_text"
-                android:textSize="24sp"
+                android:textSize="@dimen/_24sdp"
                 android:textStyle="bold" />
 
         </LinearLayout>
@@ -42,7 +45,8 @@
         android:id="@+id/activity_main_tv_date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="01 Mar 2017"
+        android:text=""
+        android:textSize="@dimen/_14sdp"
         android:textAlignment="center"
         android:textColor="@color/secondary_text" />
 
