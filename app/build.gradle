@@ -12,7 +12,7 @@ android {
         }
     }
     compileSdkVersion project.ext.compileSDKVersion
-    buildToolsVersion project.ext.buildToolsVersion
+    buildToolsVersion '28.0.2'
     defaultConfig {
         applicationId "com.bhadrasoft.trackmybullion"
         minSdkVersion project.ext.minSDKVersion
@@ -38,8 +38,8 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation ('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     implementation 'com.google.code.gson:gson:2.8.1'
@@ -59,11 +59,11 @@ dependencies {
     implementation 'com.intuit.sdp:sdp-android:1.0.5'
 
 
-    compile('com.crashlytics.sdk.android:crashlytics:2.7.1@aar') {
+    implementation('com.crashlytics.sdk.android:crashlytics:2.7.1@aar') {
         transitive = true;
     }
 
-    testCompile 'junit:junit:4.12'
+    testImplementation 'junit:junit:4.12'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
 }
 
