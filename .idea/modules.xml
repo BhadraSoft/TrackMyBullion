@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TrackMyBullion.iml" filepath="$PROJECT_DIR$/TrackMyBullion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/TrackMyBullion-app.iml" filepath="$PROJECT_DIR$/app/TrackMyBullion-app.iml" group="TrackMyBullion/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/git-TrackMyBullion.iml" filepath="$PROJECT_DIR$/git-TrackMyBullion.iml" group="TrackMyBullion" />
     </modules>
   </component>
 </project>
