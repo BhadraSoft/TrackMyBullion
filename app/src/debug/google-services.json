@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "228130483753",
+    "firebase_url": "https://trackmybullion-d15ef.firebaseio.com",
+    "project_id": "trackmybullion-d15ef",
+    "storage_bucket": "trackmybullion-d15ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228130483753:android:b5f60cfcebee5631",
+        "android_client_info": {
+          "package_name": "com.bhadrasoft.trackmybullion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228130483753-2s8o27a92spejna85s53b5ug5lc6r929.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bhadrasoft.trackmybullion",
+            "certificate_hash": "3f1cc43a8914160af963a05c9ae71e5c5ba7094a"
+          }
+        },
+        {
+          "client_id": "228130483753-rmodnm5tpd3k7349hc5trv5quvj2khvh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bhadrasoft.trackmybullion",
+            "certificate_hash": "73f6e2e52434a0e010f3a7ec24f308eb720fddde"
+          }
+        },
+        {
+          "client_id": "228130483753-697d1ki517vj8kgkg83o47pdo6eu5q79.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAddnqQEdpb4BWtccKELjV8gnqoYWp9ur0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "228130483753-697d1ki517vj8kgkg83o47pdo6eu5q79.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-2812477048451244~7996416199"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228130483753:android:6da4361c88d4afae6b3638",
+        "android_client_info": {
+          "package_name": "com.bhadrasoft.trackmybullion.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228130483753-697d1ki517vj8kgkg83o47pdo6eu5q79.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAddnqQEdpb4BWtccKELjV8gnqoYWp9ur0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "228130483753-697d1ki517vj8kgkg83o47pdo6eu5q79.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -3,6 +3,14 @@ apply plugin: 'com.android.application'
 apply plugin: 'io.fabric'
 
 android {
+
+    buildscript {
+        repositories {
+            //... jcenter(), google()...
+            maven { url 'https://maven.fabric.io/public' }
+        }
+    }
+
     signingConfigs {
         config {
             keyAlias 'keystore'
